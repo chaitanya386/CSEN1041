@@ -1,0 +1,18 @@
+a=1;
+b=2;
+
+print("Arithmetic Operators");
+print(f"{a} + {b} = {a + b}");print(f"{a} - {b} = {a - b}");print(f"{a} * {b} = {a * b}");print(f"{a} / {b} = {a / b:.2f}");print(f"{a} % {b} = {a % b}\n")
+
+
+Arithmetic Operators
+1 + 2 = 3
+1 - 2 = -1
+1 * 2 = 2
+1 / 2 = 0.50
+1 % 2 = 1
+
+print("Logical Operations")
+print(f"AND operation: {a} and {b} gives {bool(a and b)}")
+print(f"OR operation: {a} or {b} gives {bool(a or b)}")
+print(f"NOT operation: {a} becomes {not a}\n")
